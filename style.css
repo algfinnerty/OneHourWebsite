@@ -376,7 +376,10 @@ textarea{
 
     h3,h4{
         margin: 1em 0 0 .5em;
+        padding-left: 1em;
     }
+
+   
 
     h1,h2{
         width: 80vw;
@@ -439,7 +442,7 @@ textarea{
    
 
     #needed-section{
-        margin:1em;
+        margin: 25px auto;
         width: 78vw;
     }
 
