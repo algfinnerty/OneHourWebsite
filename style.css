@@ -422,6 +422,7 @@ textarea{
     }
 
     #open-menu-button{
+        display: block;
         font-size: 1.8em;
         position: fixed;
         top:0;
@@ -430,6 +431,7 @@ textarea{
     }
 
     #close-menu-button{
+        display: block;
         font-size: 1.8em;
         color: var(--blackish);
     }
