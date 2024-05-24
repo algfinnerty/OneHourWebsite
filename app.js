@@ -58,6 +58,16 @@ toggleSwitch.addEventListener('click',(e)=>{
     }
 })
 
+const menuToggle = document.querySelector('#open-menu-button');
+menuToggle.addEventListener('click',()=>{
+    console.log('click', aside.className);
+    if(aside.className == 'open'){
+        aside.className = '';
+    } else {
+        aside.className = 'open';
+    }
+})
+
 const taskCloseButtons = document.querySelectorAll('.task-close-button');
 taskCloseButtons.forEach(t => {
     t.addEventListener('click',(e) => {
