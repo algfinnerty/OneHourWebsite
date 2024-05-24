@@ -1,7 +1,7 @@
 :root{
     --calmblue: #e08e12;
     --headingblue: #157380;
-    --backgroundblue: rgba(214,226,255,.2);
+    --backgroundblue: #d6e2ff33;
     --warmingred: #C84918;
     --gogreen: #A4DB2F;
     --linkgreen: #6b8f1d;
@@ -23,8 +23,12 @@ header{
   margin-left: 34vw;
 }
 
-.logo{
-
+.warning{
+    background: var(--warmingred);
+    padding: 1em;
+    border-radius: 10px;
+    color: var(--white);
+    font-weight: bold;
 }
 
 aside{
