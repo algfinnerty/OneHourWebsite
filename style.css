@@ -20,7 +20,7 @@ body{
 
 header{
   
-  margin-left: 36vw;
+  margin-left: 34vw;
 }
 
 .logo{
@@ -83,6 +83,7 @@ h2{
 h3{
     font-size: 2.5em;
     border-bottom: .5px solid var(--headingblue);
+    /* margin-left: 2em; */
 }
 
 h3 .invisible-button{
