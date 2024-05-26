@@ -25,7 +25,7 @@
     <main> 
         <section id="intro-section" aria-label="Introduction">
             <p>Have you ever wanted to create and host your own website? Starting from scratch can be confusing even when you already know a little HTML and CSS. Lot of companies can help create complex blogs and shopping sites, but sometimes you just need something simple.</p>
-            <p>There’s an easier way to create website at a fraction of the cost – a static webpage. This tutorial explains how you can create your own webpage with a few lines in a text editor, then will show you two cost-effective ways to hosting this content. You'll get a high-level view of how content is delivered over the internet, and a great way to host your own portfolio, personal site or (almost) anything you can imagine.</p>
+            <p>There’s an easier way to create a website at a fraction of the cost – a static webpage. In this tutorial we will create a webpage from scratch, then learn two cost-effective ways of hosting this content. You'll get a high-level view of how content is delivered over the internet, plus a great way to host your own portfolio, personal site or (almost) anything you can imagine.</p>
             <div class="row" id="show-me-row">
                 <b>Show me everything</b>
                <div id="toggle-info-switch-container"> 
@@ -49,25 +49,25 @@
         <div class="task">
             <h4 id="what-is-a-static-web-page"><i class="fa fa-info-circle"></i>What is a static web page?<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
-                    <p>Most websites on the internet live on a <a href="https://en.wikipedia.org/wiki/Server_(computing)" target="_blank">server</a> – a fancy word for a computer accessible from the public internet. But there’s another kind of website – a <a href="https://en.wikipedia.org/wiki/Static_web_page" target="_blank">static website</a> – that is much more basic. </p>
+                    <p>Most websites on the internet live on a <a href="https://en.wikipedia.org/wiki/Server_(computing)" target="_blank">server</a> – a fancy word for a computer that can be accessed from the public internet. But there’s another kind of website – a <a href="https://en.wikipedia.org/wiki/Static_web_page" target="_blank">static website</a> – that is much more basic. </p>
                     <p>Static websites don’t need to be run (or hosted) on servers like traditional websites. The code for these websites runs completely in your browser. Since they don’t talk to databases, they can be stored in something called <a href="https://en.wikipedia.org/wiki/Object_storage" target="_blank">object (or <i>blob</i>) storage</a>.</p>
-                    <p>Internet users can access static sites more quickly then server based sites. Plus, not needing a server makes them significantly cheaper.</p>
+                    <p>Internet users can access static sites more quickly then server based sites. Plus, not needing a server makes these sites significantly cheaper.</p>
             </section>
             <h4 id="why-a-static-website"><i class="fa fa-info-circle"></i>Why would I want a static website?<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
-                <p>Static websites can’t communicate directly with a database over a server, but they can do almost anything else. Then can still retrieve and send data by sending requests to an <a href="https://www.postman.com/what-is-an-api/", target="_blank">Application Programming Interface (API)</a> and play an important role in  <a href="https://aws.amazon.com/what-is/serverless-computing/" target="_blank">serverless computing</a>. In fact these days, most browsers are so powerful there isn’t a lot they can’t do.</p>
-                <p>Static websites also offer many benefits that include:</p>
+                <p>Static websites can’t communicate directly with a database over a server, but they can do almost anything else. They can still retrieve and send data by sending requests to an <a href="https://www.postman.com/what-is-an-api/", target="_blank">Application Programming Interface (API)</a> and play an important role in  <a href="https://aws.amazon.com/what-is/serverless-computing/" target="_blank">serverless computing</a>. These days most browsers are so powerful there isn’t a lot they can’t do.</p>
+                <p>Static websites also offer many benefits:</p>
                 <ul>
                     <li><i>Low cost:</i> static websites are significantly cheaper than server-based websites, even one hosted by CMSs like WordPress</li>
-                    <li><i>High scaling:</i> static websites are so simple they scale effortlessly even at high volumes of traffic</li>
-                    <li><i>Easy deployments:</i> anyone who can create a basic HTML document can deploy one in a few minutes</li>
+                    <li><i>High scaling:</i> static websites are so simple they <a>scale</a> even at high volumes of traffic</li>
+                    <li><i>Easy deployments:</i> anyone can deploy these sites in a few minutes</li>
                 </ul>
             </section>
             <h4 id="write-your-own-html"><i class="fa fa-info-circle"></i>Writing your own HTML<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
-                <p>When you visit a webpage, you're really visiting a file (or group of files) stored on a different computer. Special software on the server makes that file findable by people browsing on the internet.  These files contain everything needed to display the page – text, styles, images and code to load other resources.</p>
-                <p>The one file every webpage must have is an .html file. This is a standard filetype, like .doc or .jpg. When your browser (like Chrome, Firefox or Edge) recieves a .html file over the internet, it translates the code in the .html file (and all it's linked files) into the text, styling and actions you see on your screen.</p>
-                <p>Web developers use <a href="https://www.codecademy.com/resources/blog/popular-ides-and-code-editors/" target="_blank">special programs</a> to create and editor their code – but HTML files are just text documents. They can be created in any text editor, but some add additional formatting that can interfere with the code. Simpler text editors are usually better.</p>
+                <p>When you visit a webpage you're really visiting a file (or group of files) stored on a different computer. Special software on the server makes that file findable by people browsing on the internet.  These files contain everything needed to display the page – text, styles, images and code to load other resources.</p>
+                <p>The one file every webpage must have is an HTML file. This is a standard filetype, like .doc or .jpg. When your browser (like Chrome, Firefox or Edge) recieves an HTML file over the internet, it translates the code in the HTML file (and all it's linked files) into the text, styling and actions you see on your screen.</p>
+                <p>Web developers use <a href="https://www.codecademy.com/resources/blog/popular-ides-and-code-editors/" target="_blank">special programs</a> to create and edit their code – but HTML files are just text documents. They can be created in any text editor, but some add additional formatting that can interfere with the code. Simpler text editors are usually better.</p>
             </section>
             <h4 id="the-simplest-webpage"><i class="fa fa-info-circle"></i>The simplest possible web page<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
@@ -84,13 +84,11 @@
                     <textarea rows="6" cols="50">&lt;!DOCTYPE html>&#10&emsp;&emsp;&lt;head>&lt;/head>&#10&emsp;&emsp;&lt;body>&#10&emsp;&emsp;&emsp;&emsp;Hello World&#10&emsp;&emsp;&lt;/body>&#10&lt;/html>
                     </textarea>
                 </div>
-                <p>The first line of code lets the browser confirm this document contains HTML. Next comes the starting HTML tag (&lt;html>). It’s closing tag (&lt;/html>) comes at the very end. Inside there must be a &lt;head>&lt;/head> tag and a &lt;body>&lt;/body> tag. The body will contain all your content – words, images and external files that need to be loaded.</p>
+                <p>The first line of code lets the browser confirm this document contains HTML. Next comes the starting HTML tag (&lt;html>). A starting tag has to have a closing tag. The closing (&lt;/html>) tag comes at the very end of the document. Between these tags there must be a &lt;head>&lt;/head> tag and a &lt;body>&lt;/body> tag. The body will contain all your content – words, images and external files that need to be loaded.</p>
             </section>
             <h4 id="head-requirements"><i class="fa fa-info-circle"></i> &lt;head>&lt;/head> requirements<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
-                <p>
-                    The  &lt;head>&lt;/head> tag gives the browser additional information about the page and provides information about how the webpage should be interpreted – like the language, character set and the title of the page. You can also add links to external stylesheets in the head.
-                </p>
+                <p>The &lt;head>&lt;/head> tag gives the browser additional information about the page and provides information about how the webpage should be interpreted – like the language, character set and the title of the page. You can also add links to external stylesheets in the head.</p>
                 <div class="codeblock">
                     <div class="row code-row">
                         <div class="hidden">
@@ -107,13 +105,13 @@
                 <p>You can think of HMTL tags like containers. Everything ‘inside’ the tag is given a specific meaning or style. Only valid HTML tags or pure text can go inside the &lt;html>&lt;/html> tags.</p>
                 <p>There are lots of specific HTML tags you can use, but they fall into two categories:</p>
                 <ul>
-                    <li><i>Semantic Tags</i> like &lt;main>&lt;/main>, &lt;section>&lt;/section>, heading and list tags. <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">Semantic tags</a> come with additional built-in features and are important landmarks for people using accessibility devices.</li>
-                    <li><i>Non-semantic Tags </i> like &lt;div> and &lt;span> do not carry additional meaning and are good for stylistic elements and containers</li>
+                    <li><i>Semantic Tags</i> like &lt;main>&lt;/main>, &lt;section>&lt;/section>, heading and list tags come with additional built-in features and <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">are important landmarks for people using accessibility devices</a></li>
+                    <li><i>Non-semantic Tags</i> like &lt;div> and &lt;span> do not carry additional meaning and are good for stylistic elements and containers</li>
                 </ul>
             </section>
             <h4 id="styling-content"><i class="fa fa-info-circle"></i>How to style content<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
-                <p>All browsers have default (or fallback) styles to display a HTML content when no specific styles are provided. If you’re looking for more impact, custom styles can be <a href="https://www.w3schools.com/html/html_styles.asp" target="_blank">added directly to elements</a> or by writing another language called CSS inside a pair of <a href="https://www.w3schools.com/TAGs/tag_style.asp" target="_blank">&lt;style>&lt;/style> tags</a>. CSS can also be added in a seperate .css file and linked in the <a href="https://www.w3schools.com/CSS/css_howto.asp" target="_blank">&lt;head>&lt;/head></a> tag.</p>
+                <p>All browsers have default (or fallback) styles to display an HTML content when no specific styles are provided. If you’re looking for more impact, custom styles can be <a href="https://www.w3schools.com/html/html_styles.asp" target="_blank">added directly to elements</a> or by writing another language called CSS inside a pair of <a href="https://www.w3schools.com/TAGs/tag_style.asp" target="_blank">&lt;style>&lt;/style> tags</a>. CSS can also be added in a seperate .css file and linked in the <a href="https://www.w3schools.com/CSS/css_howto.asp" target="_blank">&lt;head>&lt;/head></a> tag.</p>
                 <div class="codeblock">
                     <div class="row code-row">
                         <div class="hidden">
@@ -126,7 +124,7 @@
                 </div>
                 <p>Basic CSS is pretty easy to read. The styles applied to the body tag affect the entire document, while the styles applied to the &lt;h1> tag and the &lt;p> tag in the example above will be applied to all uses of those tags. If you need to be more specific, you can explore adding <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors" target="_blank">classes and ids</a> to elements.</p>
             </section>
-            <h4 id="create-html-file"><i class="fa fa-hand-o-right"></i>Creating a .html file<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
+            <h4 id="create-html-file"><i class="fa fa-hand-o-right"></i>Creating an HTML file<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
                 <p>All you need to do to create a webite is copy one of the code samples above into a text document and save it as file called <i>index.html</i>.</p>
                 <ol>
@@ -141,30 +139,30 @@
             <h4 id="what-is-github"><i class="fa fa-info-circle"></i>What is GitHub?<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
                 <p><a href="github.com/about" target="_blank"></a>GitHub is a website where anyone can share and collaborate on code and other files. While it has many advanced features, it’s also one of the easiest ways to host a static website using a feature called GitHub Pages. Best of all, it’s completely free!</p>
-                <p>GitHub is based on a language called Git which stores changes (or commits) in different branches. It can compare, combine and keep track of the history of those changes. Git is very powerful – learning even <a href="https://www.w3schools.com/git/default.asp" target="_blank">basic commands</a> makes developing websites significantly easier.</p>
+                <p>GitHub is based on a language called git that stores changes (or <i>commits</i>) in different branches. It can compare, combine and keep track of the history of those changes. Git is very powerful – learning even <a href="https://www.w3schools.com/git/default.asp" target="_blank">basic commands</a> makes developing websites significantly easier.</p>
             </section>
-            <h4 id="signup-for-github"><i class="fa fa-hand-o-right"></i>Signing up for a GitHub Account<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
+            <h4 id="signup-for-github"><i class="fa fa-hand-o-right"></i>Signing up for a GitHub account<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
-                <p>GitHub makes Signing up for an account incredibly simple. Just go to their <a href="https://github.com/signup" target="_blank">signup page</a> and provide and email and a password to create a new account.</p>
-                <img src="img/github_signup.png" alt="The GitHub Signup form only requires an email and a password"/>
+                <p>GitHub makes signing up for an account incredibly simple. Just go to their <a href="https://github.com/signup" target="_blank">signup page</a> and provide an email address and password to create a new account.</p>
+                <img src="img/github_signup.png" alt="The GitHub Signup form only requires an email address and password"/>
             </section>
             <h4 id="create-a-reoository"><i class="fa fa-hand-o-right"></i>Creating a GitHub repository<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
-                <p>All code in GitHub lives inside a <b>repository</b> (often called a <i>repo</i>).</p>
+                <p>All code in GitHub lives inside a repository (often called a <i>repo</i>).</p>
                 <p>Creating an empty repository only takes a few clicks:</p>
                 <ol>
-                    <li>Click on the <b>Repositories</b> tab on the top navigation bar.</li>
-                    <li>On the next page, you should be prompted to create your first repository. If not, click the green <b>New</b> button to the right of the search bar.<img src="img/github_new_repo.png" alt="The new button is after the searchbar on your GitHub home page" /></li>
+                    <li>Click on the <b>Repositories</b> tab in the top navigation bar</li>
+                    <li>On the next page, you should be prompted to create your first repository; if not, click the green <b>New</b> button to the right of the search bar.<img src="img/github_new_repo.png" alt="The new button is after the searchbar on your GitHub home page" /></li>
                     <li>On the <b>repository setup screen</b>, you only need to make a few changes:
                         <ol>
-                            <li>Give a name to your project. This name will be used to access your site, so pick something memorable!</li>
+                            <li>Give a name to your project – this name will be used to access your site, so pick something memorable!</li>
                             <li>Make sure the repository is marked as <b>Public</b></li>
                             <li>Select the checkbox that says <b>Add a Readme File</b></li>
                             <li>Click the green <b>Create Repository</b> button</li>
-                            <img src="img/github_repo_config.png" alt="On the Repo Configuration page make sure your repository is public and select Add a Readme File before creating your repository" />
+                            <img src="img/github_repo_config.png" alt="On the Repo Configuration page make sure your repository is public and select Add a Readme File before creating your repository"/>
                         </ol>
                     </li>
-                    <p>Once you've finished creating your new repository, you should be taken to its homepage automatically. </p>
+                    <p>Once you've finished creating your new repository, you should be taken to its homepage automatically.</p>
                 </ol>
             </section>
             <h4 id="what-is-a-readme"><i class="fa fa-info-circle"></i>Your repository’s README.md<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
@@ -172,22 +170,23 @@
                 <p>Your new repository will be empty except for the README.md you just asked the setup wizard to create. README.md is written in another language called <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github" target="_blank">markdown</a>. You can think of markdown as a simplified version of HTML, but you can still do a lot with it.</p> 
                 <p>The README.md file is intended to provide information about a repo – but people use them for plenty of creative purposes! If you'd like to practice writing markdown, this is a great place to do it.</p>    
             </section>
-            <h4 id="add-index-to-repo"><i class="fa fa-hand-o-right"></i>Adding index.html to your repo<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
+            <h4 id="add-index-to-repo"><i class="fa fa-hand-o-right"></i>Adding <i>index.html</i> to your repo<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
                 <p>There are <a href="https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github" target="_blank">many ways</a> to add code to GitHub but the easiest ways are directly through the website.</p>
                 <ol>
-                    <li><i>Option A:</i> Click <b>Add File</b> then <b>Upload files</b> and select the <i>index.html</i> file you created earlier <img/>
-                        <i>Option B:</i> Click <b>Add File</b> then <b>Create new file</b>. In the new document dialogue, name the file <i>index.html</i> and paste the entire contents of your HTML document into the textbox below. <img/>
+                    <li><i>Option A:</i> Click <b>Add file</b> then <b>Upload files</b> and select the <i>index.html</i> file you created earlier <img/><br/>
+                        <i>Option B:</i> Click <b>Add file</b> then <b>Create new file</b>; in the new document dialogue, name the file <i>index.html</i> and paste the entire contents of your HTML document into the textbox below<img/>
                     </li>
                     <li>Click the green <b>Commit changes</b> button on the upper right</li>
-                    <li>A dialog box will pop up asking for more details about the changes you’re making (the <i>commit</i>). Just click <b>Commit changes</b> a second time to close this dialog</li>
-                    <li>Your <i>index.html</i> file should be visible inside the repository.</li>
+                    <li>A dialog box will pop up asking for more details about the changes you’re making (the <i>commit</i>)</li>
+                    <li>Just click <b>Commit changes</b> a second time to close this dialog</li>
+                    <li>Your <i>index.html</i> file should be visible inside the repository</li>
                 </ol>
             </section>
             <h4 id="what-is-github-pages"><i class="fa fa-info-circle"></i>What is GitHub Pages?<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
                 <p>Your code is now saved in Github! But if you click on <i>index.html</i> inside your repository, you'll just see the code you wrote. The browser isn’t interpreting it (or <i>rendering</i> it) as a web page – so the code is just being treated as text.</p>
-                <p>For the browser to render your code, you need to configure your repository for public hosting. GitHub has a feature called <a href="https://docs.github.com/en/pages" target="_blank">GitHub Pages</a> you can use to host static webpages for free. </p>
+                <p>For the browser to render your code, you need to configure your repository for public hosting. GitHub has a feature called <a href="https://docs.github.com/en/pages" target="_blank">Pages</a> that you can use to host static webpages for free. </p>
             </section>
             <h4 id="configure-github-pages"><i class="fa fa-hand-o-right"></i>Configuring GitHub Pages to host index.html <button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
@@ -195,11 +194,11 @@
                 <ol>
                     <li>Click the <b>Settings</b> tab on top of the repository</li>
                     <li>Select <b>Pages</b> from the navigation bar on the right</li>
-                    <li>Under <b>Build and Deployment</b> heading, make sure <b>Source</b> is set to <b>GitHub Actions</b></li>
+                    <li>Under the <b>Build and Deployment</b> heading, make sure <b>Source</b> is set to <b>GitHub Actions</b></li>
                     <li>In the <b>Static HTML</b> panel that appears, click <b>Configure</b></li>
-                    <li>Some code will appear, but you don’t need to make any changes. Just click <b>Commit Changes</b> on this screen and the next dialog that appears</li>
+                    <li>Some code will appear, but you don’t need to make any changes; just click <b>Commit Changes</b> on this screen and on the next dialog that appears</li>
                 </ol>
-                <p>Navigate back to the Pages section of settings. Now you should see a banner at the top of the page with the link to your live website.</p>
+                <p>Navigate back to the <b>Pages</b> section of settings. Now you should see a banner at the top of the page with the link to your live website.</p>
                 <img src="img/pages_banner.png" alt="" />
                 <p>You can make changes to <i>index.html</i> and reupload it whenever you want. Or you can make changes directly in the file in the browser and save them by making a new commit. GitHub Actions will update your live site with those changes in only a few minutes.</p>
                 <p>In the next section you will learn another way to share your static websites: hosting directly in the cloud.</p>
@@ -209,15 +208,15 @@
         <div class="task">
             <h4><i class="fa fa-info-circle"></i>What is the Cloud?<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
-                <p>Put very simply: the Cloud is a huge number of tightly-networked computers (servers) all around the world. This network lets us share content fast worldwide, process data more efficiently and instantly deploy new resources. Since computing resources are shared, it can also mean big cost saving for certain projects. </p>
-                <p>There are several different Clouds (like <a href="cloud.google.com" target="_blank">Google Cloud</a> and <a href="azure.microsoft.com">Microsoft Azure</a>) which all offer similar functionality. I’m using Amazon Web Services (AWS) in this tutorial since it's the simplest for beginners, but similar concepts should apply to any Cloud Provider.</p>
-                <p>All Cloud Providers work on a “pay-as-you-go” model, meaning you will only pay for resources you actually use. It also means you need to be careful to watching you're spending – we'll learn an easy way to do this on AWS in a later section.</p>
+                <p>Put very simply: the Cloud is a huge number of tightly networked computers (servers) all around the world. This network lets us quickly share content worldwide, process data more efficiently and instantly deploy new resources. Since computing resources are shared, it can also mean big cost saving for certain projects.</p>
+                <p>There are several different Clouds (like <a href="cloud.google.com" target="_blank">Google Cloud</a> and <a href="azure.microsoft.com">Microsoft Azure</a>) that all offer similar functionality. I’m using Amazon Web Services (AWS) in this tutorial since it's the simplest for beginners, but similar concepts should apply to any Cloud Provider.</p>
+                <p>All cloud providers work on a “pay-as-you-go” model, meaning you will only pay for resources you actually use. It also means you need to be careful to watch you're spending – we'll learn an easy way to create budget alerts for AWS in a later section.</p>
             </section>
             <h4><i class="fa fa-info-circle"></i>What is the AWS Free Tier?<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
                 <p>AWS provides many services free to new users for the <a href="aws.amazon.com/free/" target="_blank">first twelve months</a>. You will be charged for each service separately, so it’s important to check the billing page for each service you are using. AWS provides a <a href="https://calculator.aws" target="_blank">calculator</a> that can be helpful to get a rough idea of the costs of using multiple services together.</p>
                 <p><b>Simple Storage Service (S3)</b> is the service that will host your static site. Below is the projected cost estimate for hosting a 1GB Website in S3 with 20,000 visits a month (as of 05/23/24): only about 36 cents!</p>
-                <img src="img/cost_estimate.png" alt="AWS shows an estimated cost of 36 cents in US dollars to host 1GB Website in S3 with 20,000 visits a month" />
+                <img src="img/cost_estimate.png" alt="On 05/23/24, AWS showed an estimated cost of 36 cents in US dollars to host 1GB Website in S3 with 20,000 visits a month" />
             </section>
             <h4><i class="fa fa-hand-o-right"></i>Signing up for an AWS Account<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
@@ -229,13 +228,13 @@
                     <li>AWS will confirm you have access to this email address by sending you a verification code; enter this number and click <b>Verify email address</b> 
                         <img src="img/aws_email_verify.png" alt=""/>
                     </li>
-                    <li>Complete the rest of the sign-up form then click <b>Create account</b></li>
+                    <li>Complete the rest of the sign-up form and click <b>Create account</b></li>
                 </ol>
             </section>
-            <h4><i class="fa fa-hand-o-right"></i>(Optional) Creating an IAM Role<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
+            <h4><i class="fa fa-hand-o-right"></i>(Optional) Creating an IAM role<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
                 <p>The account you just created is called a root account – an account with all possible permissions. You can log in and work with this account, but it’s more secure to use a special, limited purpose account (or <i>role</i>) linked to this account. This is called an <a href="aws.amazon.com/iam/features/manage-permissions/" target="_blank">Identity and Access Management (IAM)</a> role, and it's considered a best practice to use one for day-to-day activities.</p>
-                <p class="warning"> If you do create an IAM Role, just make sure you give it permissions to view the <a href="docs.aws.amazon.com/cost-management/latest/userguide/control-access-billing.html" target="_blank">Billing and Cost Management Console</a> so you can keep an eye on your spending.</p>
+                <p class="warning"> If you create an IAM role make sure you give it permission to view the <a href="docs.aws.amazon.com/cost-management/latest/userguide/control-access-billing.html" target="_blank">Billing and Cost Management Console</a> so you can keep an eye on your spending</p>
             </section>
             <h4><i class="fa fa-hand-o-right"></i>(Optional) Setting up budget alerts<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
@@ -245,14 +244,14 @@
             <section class="info-section">
                     <p>You may have noticed the region selector on the top right of the AWS Console.</p>
                     <img src="img/aws_region_selector.png" alt="The AWS Region selector set to Northern Virgina also known as us-east-1">
-                    <p>Northern Virginia (us-east-1) is the default region, but all accounts can create resources in any AWS Region. You can change to a closer region to decrease the response time from some AWS Services.</p><p>Other services are global and do not have regions. S3 is a global service, but you still need to pick a 'home' region for your bucket.</p>
+                    <p>Northern Virginia (us-east-1) is the default region, but all accounts can create resources in any AWS Region. You can change to a closer region to decrease the response time from some AWS Services.</p>
             </section>
         </div>
         <h3 id="host-your-static-site-in-s3">Host your static site with S3<button class="invisible-button task-close-button"><i class="fa fa-chevron-down"></i></button></h3>
         <div class="task">
             <h4 id="what-is-s3"><i class="fa fa-info-circle"></i>What is S3?<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
-                <p>You can think of an S3 Bucket like a file folder in the Cloud – but one that can be accessed by anyone with permission. This makes them great for hosting public content like images, scanned files and raw data – and <a href="docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html" target="_blank">static websites</a>, of course!</p>
+                <p>You can think of an S3 Bucket like a file folder in the Cloud – but one that can be accessed by anyone with permission. This makes Buckets great for hosting public content like images, scanned files and raw data – and <a href="docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html" target="_blank">static websites</a>, of course!</p>
             </section>
             <h4 id="create-an-s3-bucket"><i class="fa fa-hand-o-right"></i>Creating an S3 Bucket<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
@@ -260,11 +259,11 @@
                 <ol>
                     <li>Search for S3 in the main search bar on the top of the page</li>
                     <li>On the S3 Dashboard, click the orange <b>Create bucket</b> button on the far right</li>
-                    <li>On the next page, give your bucket a globally unique name. Think carefully – if you don’t use a custom domain, this name will be used to access the site<br/><img src="/img/aws_bucket_creation.png" alt=""></li>
-                    <li>Under <b>Block Public Access Settings</b> uncheck the box marked <b>All Public Access.</b> <br/>
+                    <li>On the next page, give your bucket a globally unique name; think carefully – if you don’t use a custom domain, this name will be used to access the site<br/><img src="/img/aws_bucket_creation.png" alt=""></li>
+                    <li>Under <b>Block Public Access Settings</b> uncheck the box marked <b>All Public Access</b><br/>
                         <img src="/img/aws_bucket_config.png" alt="">
                     </li>
-                    <li>A yellow warning will appear; click the checkbox to acknowledge AWS doesn’t recommend unchecking this box (unless you are hosting a static website!)
+                    <li>A yellow warning will appear; click the checkbox to acknowledge that AWS doesn’t recommend unchecking this box (unless you are hosting a static website!)
                         <br/><span class="warning">
                             Everything in this Bucket will be public to the entire world, so make sure it won’t be used for anything else
                         </span>
@@ -274,11 +273,11 @@
             </section>
             <h4 id="configure-your-s3-bucket"><i class="fa fa-hand-o-right"></i>Configuring your S3 Bucket<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
-                <p>Now that you’ve created a public S3 Bucket, the bext step is to tell it <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html?icmpid=docs_amazons3_console" target="_blank">which file to host</a>.</p>
+                <p>Now that you’ve created a public S3 Bucket, the next step is to tell it <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html?icmpid=docs_amazons3_console" target="_blank">which file to host</a>.</p>
                 <ol>
                     <li>On the <b>S3 dashboard</b>, select the Bucket you just created.</li>
                     <li>Click the <b>Properties</b> tab at the top of the page, then scroll to the section called ‘Static website hosting’</li>    
-                    <li>Click the grey <b>edit</b> button on the right of the <b>Static website hosting</b> section</li> 
+                    <li>Click the gray <b>edit</b> button on the right of the <b>Static website hosting</b> section</li> 
                     <li>On the page that opens, click <b>enable</b> then fill in the name of your <b>Index document</b> (your home or default page). This is easy – we called it index.html!</li>
                 </ol>
                 <p>Your bucket is now configured and ready to host your website! If you check the <b>Static website hosting</b> box again, you will see the updated information, including the default <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL" target="_blank">URL (Uniform Resource Locator)</a> for your new site. But if you visit it right now, you’ll get an error message – the last step is adding the index.html file you created to the bucket.</p>
@@ -297,10 +296,10 @@
         <div class="task">
             <h4><i class="fa fa-info-circle"></i>What is a custom domain name?<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section class="info-section">
-                <p>You probably noticed the name for your website is a little hard to remember. That’s because S3 generate this name automatically by combining the name of the bucket with the region it was created in.</p>
-                <p>Everything on the internet, including your website, is identifiable by a string of unique numbers called an Internet Protocol (IP Address). IP Addresses make sending things to the right device possible – but they aren’t particularly easy to remember or use, however.</p>
+                <p>You probably noticed the name for your website is a little hard to remember. That’s because S3 generates this name automatically by combining the name of the bucket with the region it was created in.</p>
+                <p>Everything on the internet, including your website, is identifiable by a string of unique numbers called an Internet Protocol (IP) address. IP addresses make sending things to the right device possible – but they aren’t particularly easy to remember or use, however.</p>
                 <p>Browsers let us find websites using their Domain Name – something like amazon.com, mit.edu or whitehouse.gov. The <a href="https://www.cloudflare.com/learning/dns/what-is-dns/" target="_blank"> Domain Name System (DNS)</a> uses special servers called Nameservers to <i>resolve</i> Domain Names to their IP addresses and direct traffic to the correct site.  </p>
-                <p>There are only so many of these names available for a given <i>domain</i> (the last part of the domain name after the period, like .com and .edu). There are only so many of these names available and you need permission to use certain domains. An organization called <a href="www.icann.org">ICANN</a> manages the ownership and expiration of Domain Names, but you don’t buy names through them directly. Instead, Domain Names are purchased through a registration service.</p>
+                <p>There are only so many of these names available for a given <i>domain</i> (the last part of the domain name after the period, like .com and .edu) and you need permission to use certain domains. An organization called <a href="www.icann.org">ICANN</a> manages the ownership and expiration of Domain Names, but you don’t buy names through them directly. Instead, Domain Names are purchased through a registration service.</p>
             </section>
             <h4><i class="fa fa-hand-o-right"></i>Buying a custom domain name on Route 53<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
@@ -318,17 +317,17 @@
             </section>
             <h4><i class="fa fa-hand-o-right"></i>Configuring your domain name<button class="invisible-button section-close-button"><i class="fa fa-chevron-down"></i></button></h4>
             <section>
-                <p>We’ll start by creating an <b>A Record</b> – the primary kind of record – to point your new domain name to your website in S3.</p>
+                <p>We’ll start by creating an <i>A Record</i> – the primary kind of record – to point your new domain name to your website in S3.</p>
                 <ol>
                     <li>On the Route 53 Dashboard select <b>Hosted Zones</b> from the sidebar on the left</li>
                     <li>Select the Hosted Zone named for your new custom domain name</li>
-                    <li>Click the orange <b>Create record</b> button </li>
+                    <li>Click the orange <b>Create record</b> button</li>
                     <li>On the next screen, click the <b>Switch to wizard</b> button 
                         <img src="img/route53_switch_to_wizard.png" alt=""/> 
                     </li>
                     <li>Make sure <b>Simple routing</b> is selected and click <b>Next</b></li>
                     <li>Click <b>Define simple record</b></li>
-                    <li>On the next screen, leave the subdomain value blank and make sure the record type is set to <b>A – Routes Traffic to an IPv4 Address and some AWS Resources</b>
+                    <li>On the next screen, leave the subdomain value blank and make sure the record type is set to <b>A – Routes Traffic to an IPv4 Address and some AWS Resources</b><br/>
                         <img src="img/route53_simple_route.png" alt="">
                     </li>
                     <li>In the dropdown menu under <b>Value/Route traffic to</b> select <b>Alias to S3 Website Endpoint</b></li>
@@ -343,9 +342,9 @@
             <section class="info-section">
                 <p>Congratulations! Now you know how HTML goes from being a text document to being live and visible on the internet. These are just the basics, but you have plenty of options to continue improving your site:</p>
                 <ul>
-                    <li>Want a more complex code example? Check out the <a href="https://github.com/algfinnerty/OneHourWebsite" target="_blank">full code for this site in it's repository</a> to see how it's put together. </li>
-                    <li>Want to make something prettier site? Learn more about <a href="https://www.w3schools.com/Css/" target="_blank">CSS</a> and <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding" target="_blank">embedding content</a></li>
-                    <li>Want to code faster? Download a code editor and learn to use the command line for <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands" target="_blank">Windows</a> or <a href="https://support.apple.com/guide/terminal/welcome/mac" target="_blank">Mac</a>. You can use this to <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">install git</a> on your computer and send (or <i>push</i>) code directly from your computer repository (<a href="https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes" target="_blank">a <i>remote</i></a>) to your Github Repository</li>
+                    <li>Want a more complex code example? Check out the <a href="https://github.com/algfinnerty/OneHourWebsite" target="_blank">full code for this site in its repository</a> to see how it's put together. </li>
+                    <li>Want to make a prettier site? Learn more about <a href="https://www.w3schools.com/Css/" target="_blank">CSS</a> and <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding" target="_blank">embedding content</a></li>
+                    <li>Want to code faster? Download a code editor and learn to use the command line for <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands" target="_blank">Windows</a> or <a href="https://support.apple.com/guide/terminal/welcome/mac" target="_blank">Mac</a>. Then you can <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">install git</a> on your computer and send (or <i>push</i>) code directly from your computer repository (<a href="https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes" target="_blank"><i>a remote</i></a>) to your GitHub Repository</li>
                     <li>Want to create an interactive site and load content dynamically? Learn about the JavaScript, it’s simpler form jQuery and <a href="https://www.w3schools.com/js/js_api_fetch.asp" target="_blank">getting data from a public API</a></li>
                     <li>Want to add forms and get feedback from your site? AWS has many serverless services like API Gateway, Lamba and SNS that can help you </li>
                     <li>Want to go global? Use a Content Delivery Network (CDN) like <a href="https://repost.aws/knowledge-center/cloudfront-serve-static-website" target="_blank"></a> Amazon CloudFront to serve your content anywhere at lightning-fast speeds.</li>
