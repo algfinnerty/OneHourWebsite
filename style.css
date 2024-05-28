@@ -20,7 +20,8 @@ body{
 
 header{
   
-  margin-left: 34vw;
+  margin-left: 25vw;
+  padding: 0 5em;
 }
 
 .warning{
@@ -367,8 +368,10 @@ textarea{
     }
     
     header{
-        margin-left: 2em;
+        margin-left: 0;
+        padding-left: 2em;
     }
+  
 
     h1{
         margin-top: .8em;
